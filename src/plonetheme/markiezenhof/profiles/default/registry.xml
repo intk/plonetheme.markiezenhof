@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<registry>
+	<records prefix="plone.resources/markiezenhof"
+	          interface='Products.CMFPlone.interfaces.IResourceRegistry'>
+
+	   <value key="css">
+	      <element>++plone++markiezenhof/css/main.less</element>
+	   </value>
+	</records>
+
+
+	<!-- bundle definition -->
+	<records prefix="plone.bundles/markiezenhof-bundle"
+	          interface='Products.CMFPlone.interfaces.IBundleRegistry'>
+	  <value key="resources">
+	    <element>markiezenhof</element>
+	  </value>
+	  <value key="enabled">True</value>
+	  <value key="compile">True</value>
+	  <value key="jscompilation">++plone++markiezenhof/js/markiezenhof-bundle-compiled.js</value>
+	  <value key="csscompilation">++plone++markiezenhof/css/markiezenhof-bundle-compiled.css</value>
+	  <value key="last_compilation"></value>
+	</records>
+</registry>

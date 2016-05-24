@@ -20,7 +20,7 @@
   <plone:static
     directory="theme"
     type="plone"
-    name="markienzenhof"
+    name="markiezenhof"
     />
 
 </configure>

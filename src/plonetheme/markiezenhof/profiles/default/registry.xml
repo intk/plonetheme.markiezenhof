@@ -2,7 +2,7 @@
 <registry>
 	<records prefix="plone.resources/markiezenhof"
 	          interface='Products.CMFPlone.interfaces.IResourceRegistry'>
-
+	   <value key="js">++plone++markiezenhof/js/main.js</value>
 	   <value key="css">
 	      <element>++plone++markiezenhof/css/main.less</element>
 	   </value>
